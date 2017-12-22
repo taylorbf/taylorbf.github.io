@@ -10,6 +10,9 @@
   <script src="foundation/js/vendor/custom.modernizr.js"></script>
 	<link rel="stylesheet" href="css/style.css" />
   <script src="js/markdown-it.js"></script>
+  <script src="foundation/js/vendor/zepto.js"></script>
+	<script src="foundation/js/foundation.min.js"></script>
+ 	<script src="js/init.js"></script>
 
 </head>
 <body>
@@ -18,10 +21,9 @@
 
 	<a href="index.html" class="topleft desktoponly">
 
-	b.t.
+		b.t.
 
 	</a>
-
 
 	<div class="topright desktoponly">
 
@@ -40,7 +42,8 @@
 				<div class="homepage-text" style="font-size:17pt">Hi, I'm Ben.</div>
 
 				<div class="homepage-text">
-				  I work in the field of experimental and electronic music. I use Javascript as my primary instrument to create web-based music projects and algorithmic music. I live in Western Massachusetts.
+				  I work in the field of experimental and electronic music. Since 2006, I have created music projects in a variety of modes including internet-based, site-specific, networked, and algorithmically-generated. I live in Western Massachusetts.
+					<!--I use Javascript as my primary instrument to create web-based music projects and algorithmic music. I live in Western Massachusetts. -->
 				</div>
 
 				<hr />
@@ -94,63 +97,6 @@
 			<div class="large-2 columns spacer">&nbsp;</div>
 		</div>
 	</div>
-
-
-
-
-
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'foundation/js/vendor/zepto' : 'foundation/js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-
-  <script src="foundation/js/foundation.min.js"></script>
-  <script>
-
-  	$(document).foundation();
-
-		var md = window.markdownit();
-
-		// get markdown content
-        var mdFile = 'index.md';
-
-        function getText(url){
-            var result = null;
-            $.ajax( { url: url,
-                      type: 'get',
-                      dataType: 'html',
-                      success: function(data) {
-												var mdHTML = md.render(data);
-												$("#content").html(mdHTML)
-											}
-                    }
-            );
-            FileReady = true;
-            return result;
-        }
-
-			//getText(mdFile);
-
-
-
-
-
-
-	// GOOGLE ANALYTICS
- 	var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-17840817-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-
-
-  </script>
 
 </body>
 </html>

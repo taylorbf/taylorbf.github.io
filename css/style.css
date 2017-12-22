@@ -240,27 +240,27 @@ h6 {
 
 /* articles */
 
-#article h1 {
+#content h1 {
 	font-size:27pt;
 	padding:30px 0px;
 }
-#article h2 {
+#content h2 {
 	font-size:24pt;
-	padding:8px 0px;
+	padding:20px 0px;
 }
-#article h3 {
+#content h3 {
 	font-size:21pt;
-	padding:7px 0px;
+	padding:15px 0px;
 }
-#article h4 {
+#content h4 {
 	font-size:18pt;
-	padding:6px 0px;
+	padding:10px 0px;
 }
-#article h5 {
+#content h5 {
 	font-size:15pt;
 	padding:6px 0px;
 }
-#article p {
+#content p {
 	font-size:14pt;
 	font-weight:300;
 	letter-spacing:0em;

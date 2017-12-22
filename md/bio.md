@@ -1,6 +1,6 @@
-# Bio
+<img src="images/ben_600.png" style="width:250px;margin-bottom:50px;">
 
-<img src="images/ben_600.png" style="width:300px">
+## Bio
 
 Ben Taylor is an interdisciplinary artist and creative coder who specializes in web audio and networked performance practices. His research investigates the way ideas translate between the arts, and how we can apply that history to guide the artistic use of networks. He is the primary author of [NexusUI](http://nexus-js.github.io/ui/), an open-source toolkit for controlling audio in the browser.
 

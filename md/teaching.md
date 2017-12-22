@@ -94,6 +94,6 @@ Andrew Bernstein's iOS app visualizing harmonic ratios of sine tones
 
 <br>
 
-Andrew Bernstein's iOS app visualizing harmonic ratios of sine tones
+Andrew Bernstein sharing the code for his iOS app
 
 ![](images/teaching/IMG_3279.JPG)
