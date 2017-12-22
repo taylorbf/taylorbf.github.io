@@ -1,57 +1,26 @@
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Ben Taylor: Creative Code</title>
+  <title>Ben Taylor</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Hind:400,300,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="foundation/css/foundation.css" />
   <script src="foundation/js/vendor/custom.modernizr.js"></script>
 	<link rel="stylesheet" href="css/style.css" />
-  <script src="js/works2013.js"></script>
+  <script src="js/markdown-it.js"></script>
+
 </head>
 <body>
 
 	<!-- DESKTOP ONLY HEADERS & NAV -->
 
-	<div class="topleft desktoponly" onclick='changePage("news")' style="cursor:pointer">
+	<a href="index.html" class="topleft desktoponly">
 
 	b.t.
 
-	</div>
-
-	<div class="bottomright desktoponly">
-
-		<div class="sidemenu" onclick='changePage("news")'>
-			news <span class="arrow">&#8614;</span>
-		</div>
-		<div class="sidemenu" onclick='changePage("projects");'>
-			projects <span class="arrow">&#8614;</span>
-		</div>
-<!--		<div class="sidemenu" onclick='changePage("sketches");'>
-			sketches <span class="arrow">&#8614;</span>
-		</div> -->
-		<div class="sidemenu" onclick='changePage("me");'>
-			about <span class="arrow">&#8614;</span>
-		</div>
-		<div class="sidemenu" onclick='changePage("teaching");'>
-			teaching <span class="arrow">&#8614;</span>
-		</div>
-		<div class="sidemenu" onclick='changePage("history");'>
-			inspiration <span class="arrow">&#8614;</span>
-		</div>
-		<div class="sidemenu" onclick='changePage("pubs");'>
-			publications <span class="arrow">&#8614;</span>
-		</div>
-	<!--	<div class="sidemenu" onclick='changePage("me");'>
-			c.v. <span class="arrow">&#8614;</span>
-		</div> -->
-
-	</div>
+	</a>
 
 
 	<div class="topright desktoponly">
@@ -62,897 +31,69 @@
 	</div>
 
 
-	<!-- MOBILE ONLY HEADERS & NAV -->
-
-	<div class="row mobileonly">
-
-		<div class="large-2 columns">&nbsp;</div>
-		<div class="large-8 columns" style="padding:4px 0px 0px">
-			<div style="width:100%;height:100%;overflow:hidden;margin:0px;padding:0px;position:absolute;top:0;left:0;z-index:0;display:none">
-				<canvas id="sky"></canvas>
-			</div>
-			<div>
-				<h1 id="banner">
-					Ben Taylor
-					<span id="sub">web audio / creative code</span>
-				</h1>
-			</div>
-		</div>
-		<div class="large-2 columns">&nbsp;</div>
-	</div>
-
-
-	<div class="row mobileonly">
-
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-2 columns bmenu" onclick='changePage("news")'>
-			<h6>news</h6>
-		</div>
-		<div class="large-2 columns bmenu" onclick='changePage("projects");'>
-			<h6>projects</h6>
-		</div>
-	<!--	<div class="large-2 columns bmenu" onclick='changePage("sketches");'>
-			<h6>sketches</h6>
-		</div> -->
-		<div class="large-2 columns bmenu" onclick='changePage("me");'>
-			<h6>about</h6>
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-	</div>
-
-
-	<div class="row mobileonly">
-
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-2 columns bmenu" onclick='changePage("teaching");'>
-			<h6>teaching</h6>
-		</div>
-		<div class="large-2 columns bmenu" onclick='changePage("history");'>
-			<h6>context</h6>
-		</div>
-		<div class="large-2 columns bmenu" onclick='changePage("pubs");'>
-			<h6>publications</h6>
-		</div>
-		<div class="large-2 columns bmenu" onclick='changePage("me");'>
-			<h6>CV</h6>
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-	</div>
-
-
-	<!-- CONTENT WILL GO HERE -->
-
-	<div class="row" id="content_row">
-	</div>
-
-
-
-
-
-	<!-- FOOTER -->
-
-	<div class="row" style="font-size:8pt;color:#aaa;padding:50px;text-align:center;margin-top:20px;">
-
-		creatively coded as yet another design experiment © ben taylor 2015
-
-	</div>
-
-
-
-	<div id="bio" style="display:none">
-
-  		<div class="large-12 columns pagetitle" style="margin:40px 0px 10px;color:#555;">
-			<h3>about</h3>
-		</div>
-		<div class="large-2 columns"></div>
-		<div class="large-8 columns newsbox">
-			<img src="images/ben_600.png" style="width:250px;float:left;padding:0px 20px 20px 0px">
-
-			<div>
-
-			Ben Taylor is an interdisciplinary artist and creative coder who specializes in web art, web audio, and networked performance practices. His research investigates the way ideas translate between the arts, and how we can apply that history to guide the artistic use of networks and new media. He likes to build toolkits that help other people make music in web browsers (nexusosc.com), and occasionally uses those toolkits himself, with varying success.
-<br><br>
-Ben has presented his research internationally at conferences and festivals including the Pixilerations New Media Festival (Brown/RISD, 2011), New Interfaces for Musical Expression (Seoul 2013, London 2014), Web Audio Conference (IRCAM/Mozilla 2015), Leaders in Software and Art (NY 2011), Music for People and Thingamajigs (2010), International Conference on Live Coding (McMaster Univ, 2016), International Computer Music Conference (2015), and others.  He is a founding member of the Louisiana Mobile App Orchestra (LMAO), and his music has been released by the Society for Electroacoustic Music in the United States (SEAMUS).
-<br><br>
-He received an M.F.A. In Electronic Music &amp; Recording Media from Mills College and has studied with members of the League of Automatic Music Composers and The Hub, Brian Harnetty, and Pauline Oliveros. In 2016, he earned a Ph.D. in Experimental Music & Digital Media from LSU, while doing research at the LSU Center for Computation and Technology.
-<br><br>
-When not making art with the web, Ben is a developer and CTO at bitdreams.us, and teaches creative coding at Goucher College Digital Arts.
-
-			<br><br><br>
-
-	<!--		<b>current</b>
-			<br><b>goucher college</b> adjunct professor, teaching networked art and creative code
-			<br><b>louisiana state univeristy</b> ph.d. in experimental music & digital media
-
-			<br><br><br><b>past</b>
-			<br><b>redigi: recycled digital music</b> {web, graphic, software} designer / web developer
-			<br><b>mills college</b> m.f.a. electronic music & recording media
-			<br><b>portland art museum</b> audioguide coordinator
-			<br><b>kenyon college</b> b.a. music
-
--->
-
-			<b>Activities</b><br>
-			I'm an active member of several communities surrounding art & technology. In 2016 I was a music & art chair of the Web Audio Conference at Goergia Tech. I participatee in scientific committees for the New Interfaces for Musical Expression conference and the Web Audio Conference. I also volunteer for Leaders in Software & Art.<br><br>
-
-			<b>Interests</b>
-			<br>creative code, networked art and music, web development, all things javascript, sound art, browser-based performance practices, tuning, outsider art
-
-			<br><br>
-
-			<b>Contact</b>
-			<br>taylorbf [at] gmail [dot] com
-			<br>easthampton, ma
-
-
-
-			</div>
-		</div>
-		<div class="large-2 columns"></div>
-
-
-	</div>
-
-
-	<style>
-
-	.poster, .paper, .talk, .journal, .thesis {
-		padding:0px 3px;
-		border-radius:0px;
-		line-height:11px;
-		color:white;
-		font-size:11px;
-		display:none;
-	}
-
-	.poster {
-		background-color:#1bd;
-	}
-
-	.paper {
-		background-color:#0c6;
-	}
-
-	.journal {
-		background-color:#d24;
-	}
-
-	.talk {
-		background-color:#f70;
-	}
-
-	.thesis {
-		background-color:#61b;
-	}
-
-	</style>
-
-
-
-	<div id="pubs" style="display:none">
-
-		<div class="large-12 columns pagetitle" style="margin:40px 0px 0px;color:#555;">
-		<h3>publications</h3>
-		</div>
-
-		<div class="large-2 columns"></div>
-		<div class="large-8 columns newsbox">
-
-			<b>publications</b>
-			<!--<br>(bold = journal article) -->
-			<br><br>
-
-			Tune.JS: A Microtonal Web Audio Library <span class="poster">poster</span>
-			<br>2nd International Web Audio Conference, 2016, Georgia Tech, Atlanta, Georgia<br>
-			B. Taylor, A. Bernstein
-			<br><br>
-
-			Gendy.JS: A Web Audio Toolkit for Dynamic Stochastic Synthesis <span class="poster">poster</span>
-			<br>2nd International Web Audio Conference, 2016, Georgia Tech, Atlanta, Georgia<br>
-			A. Bernstein, B. Taylor
-			<br><br>
-
-			Programming Music Camp: Using Web Audio to Teach Creative Coding <span class="poster">poster</span>
-			<br>2nd International Web Audio Conference, 2016, Georgia Tech, Atlanta, Georgia<br>
-			J. Allison, Z. Berkowitz, D. Holmes, W. Conlin, N. Hwang, A. Pfalz, B. Taylor
-			<br><br>
-
-			Renotate: The Crowdsourcing and Gamification of Symbolic Music Encoding <span class="talk">talk</span>
-			<br>14th International Conference on Music Perception and Cognition, 2016, San Francisco, California<br>
-			B. Taylor, M. Wolff, D. Shanahan, J. Allison, D. Baker
-			<br><br>
-
-			<b>Educational Design of Live Coding Environments for the Browser</b> <span class="journal">journal article</span>
-			<br>Journal of Music Technology in Education, Volume 9, Issue 1, 2016<br>
-			C. Roberts, J. Allison, B. Taylor, D. Holmes, M. Wright, J. Kuchera Morin
-			<br><br>
-
-			<a href="articles/gesture-icmc15.pdf">Gesture Capture, Processing, and Asynchronous Playback within Web Audio Instruments</a> <span class="poster">poster</span>
-			<br>International Computer Music Conference, 2015, Denton, Texas<br>
-			B. Taylor, J. Allison
-			<br><br>
-
-			<a href="articles/braid-wac1.pdf">BRAID: A Web Audio Instrument Builder with Embedded Code Blocks</a> <span class="paper">paper</span>
-			<br>1st International Web Audio Conference, 2015, IRCAM/Mozilla, Paris, France<br>
-			B. Taylor, J. Allison
-			<br><br>
-
-			<a href="articles/nexusui-nime14.pdf">Simplified Expressive Mobile Development with NexusUI, NexusDrop, and NexusUp</a> <span class="paper">paper</span>
-			<br>New Interfaces for Musical Expression (NIME) Conference, 2014, Goldsmith's, London, UK<br>
-			B. Taylor, J. Allison, Y. Oh, W. Conlin, D. Holmes
-			<br><br>
-
-			<a href="articles/plumst-nime13.pdf">Plum Street: Live Audiovisual Storytelling with Remote Browsers</a> <span class="poster">poster</span>
-			<br>New Interfaces for Musical Expression (NIME) Conference, 2014, Goldsmith's, London, UK<br>
-			B. Taylor, J. Allison
-			<br><br>
-
-			<a href="articles/nexus-nime13.pdf">NEXUS: A Platform for Distributed Performance</a> <span class="paper">paper</span>
-			<br>New Interfaces for Musical Expression (NIME) Conference, 2013, Seoul, South Korea<br>
-			J. Allison, B Taylor, Y. Oh
-			<br><br>
-
-			<a href="articles/browsing-as-dreaming">Browsing as Dreaming: Why I Make Music with the Web</a> <span class="thesis">thesis</span>
-			<br>Master's Thesis at Mills College, Oakland, CA</br>
-			B. Taylor
-
-			<br><br><br>
-
-			<b>misc essays</b><br>
-			<a href="articles/grisey-jour.pdf">The Acoustic Ensemble as Spectral Synthesizer: Gerard Grisey's Jour, Contre-Jour</a><br>
-			<a href="articles/johnston-suite.pdf">Ben Johnston's Pitch Choice in Suite for Microtonal Piano</a><br>
-			<a href="articles/archicembalo.pdf">The Music of G.C. Waldrep's Archichembalo</a><br>
-			<a href="articles/stockhausen-radio.pdf">Stockhausen and the Radio Environment as a Musical Form</a><br>
-		<!--	<a href="">Morton Feldman's Individualism</a><br> -->
-		</div>
-
-		<div class="large-2 columns"></div>
-	</div>
-
-
-
-
-	<!--- TEACHING -->
-
-
-
-	<div id="teachingexp" style="display:none">
-
-
-		<div class="large-12 columns pagetitle" style="margin:40px 0px 0px;color:#555;">
-			<h3>teaching</h3>
-		</div>
-
-		<!-- march 2014 -->
-
-		<div class="large-2 columns">&nbsp;</div>
-		<div class="large-8 columns">
-
-			<style>
-
-				.course {
-					margin:5px 0px;
-					line-height:20px;
-				}
-
-				.course .name {
-					font-weight:bold;
-					width:400px;
-					display:block;
-				}
-
-				.course .year {
-					margin:0px 0px 0px 20px;
-					display:block;
-				}
-
-				.course .place {
-					margin:0px 0px 0px 20px;
-					font-style:italic;
-				}
-
-			</style>
-
-
-
-			<div class="course">
-				<span class="name">
-					Media on the Internet
-				</span>
-				<span class="place">
-					Goucher College
-				</span>
-				<span class="year">
-					SP12, SP13, SP14, SP15
-				</span>
-			</div>
-
-			<div class="course">
-				<span class="name">
-					Digital Media Programming
-				</span>
-				<span class="place">
-					Goucher College
-				</span>
-				<span class="year">
-					FA14
-				</span>
-			</div>
-
-			<div class="course">
-				<span class="name">
-					M.A. Capstone advisor
-				</span>
-				<span class="place">
-					Goucher College
-				</span>
-				<span class="year">
-					FA12, SP13, FA13, SP14
-				</span>
-			</div>
-
-			<div class="course">
-				<span class="name">
-					Introduction to Computer Music
-				</span>
-				<span class="place">
-					Louisiana State University
-				</span>
-				<span class="year">
-					SP13, SP14
-				</span>
-			</div>
-
-			<div class="course">
-				<span class="name">
-					Web Development
-				</span>
-				<span class="place">
-					Goucher College
-				</span>
-				<span class="year">
-					SP13, SP15
-				</span>
-			</div>
-
-			<div class="course">
-				<span class="name">
-					Independent Study: Media on the Internet
-				</span>
-				<span class="place">
-					Goucher College
-				</span>
-				<span class="year">
-					FA12, FA13
-				</span>
-			</div>
-
-			<div class="course">
-				<span class="name">
-					Independent Study: Web Audio
-				</span>
-				<span class="place">
-					Goucher College
-				</span>
-				<span class="year">
-					SP15
-				</span>
-			</div>
-
-
-			<style>
-
-				#teachingpics img {
-					width:700px;
-				}
-
-			</style>
-
-			<div id="teachingpics" style="margin:70px 0px 0px;color:#555;">
-
-
-				<h5>Artworks from Media on the Internet @ Goucher Digital Arts</h5>
-				<br>
-
-				<a href="http://madarts.goucher.edu/leohylan/Mabon.html">Mabon, a Stan Brackhage-inspired JavaScript artwork, by Leo Hylan</a>
-				<br>
-				<br>
-				<a href="http://madarts.goucher.edu/lindseybridwell/MakeASong/makeasong.html">Toy xylophone in the browser, by Lindsey Bridwell</a>
-				<br>
-				<br>
-
-				<a href="http://madarts.goucher.edu/ayumiyasuda/AY-canvas-foggywindow.html">Foggy Window (interaction study), by Ayumi Yasuda</a>
-				<br>
-				<br>
-
-				<a href="http://www.andrewbernste.in/realityTesting/">Reality Testing (web audio study), by Andrew Bernstein</a>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-
-
-				<h5>Photos from Digital Media Programming, Fall 2014, Goucher College</h5>
-
-
-				<style>
-					#teachingpics div {
-						font-weight:bold;
-						margin-top:40px;
-						margin-bottom:5px;
-						font-size:13pt;
-						color:#000;
-					}
-				</style>
-
-
-				<div>Leo Hylan sharing his interactive digital painting program</div>
-				<img src="images/teaching/IMG_3239.JPG">
-
-				<div>Leo Hylan's digital painting / video feedback installation, made with Processing</div>
-				<img src="images/teaching/IMG_3227.JPG">
-
-				<div>Leo Hylan's digital painting / video feedback installation, made with Processing</div>
-				<img src="images/teaching/IMG_3233.JPG">
-
-				<div>Ayumi Yasuda, sharing her animated symbolic typography</div>
-				<img src="images/teaching/IMG_3247.JPG">
-
-				<div>Andrew Bernstein's mobile app visualizing harmonic ratios of sine tones</div>
-				<img src="images/teaching/IMG_3257.JPG">
-
-				<div>Andrew Bernstein's mobile app visualizing harmonic ratios of sine tones</div>
-				<img src="images/teaching/IMG_3276.JPG">
-
-				<div>Andrew Bernstein sharing the code for his mobile app</div>
-				<img src="images/teaching/IMG_3279.JPG">
-
-			</div>
-
-
-
-		</div>
-
-		<div class="large-2 columns">&nbsp;</div>
-
-	</div>
-
-
-
-
-
-
-
-
-	<!-- NEWS -->
-
-
-	<div id="myblog" style="display:none">
-
+	<div id="myblog" style="margin-top:50px">
 
 		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
+			<div class="large-2 columns spacer">&nbsp;</div>
+			<div class="large-8 columns newsbox">
 
-			<div style="font-weight:100;font-size:17pt;color:#333;line-height:1.4em;letter-spacing:2px;">Hi, I'm Ben.</div>
+				<div class="homepage-text" style="font-size:17pt">Hi, I'm Ben.</div>
 
-			<div style="font-weight:100;font-size:14pt;color:#333;line-height:1.4em;letter-spacing:2px">
-				I am a creative coder, specializing in web audio and new media art. I write <a href="http://nexusosc.com" target="blank">coding toolkits</a>, mostly for web browsers. I compose computer music, build new musical instruments, and <a href="#pubs_">write</a> about them. I program web audio apps professionally and I <a href="#teaching_">teach</a> at <a href="http://www.goucher.edu/graduate-programs/digital-arts">Goucher College Digital Arts</a>. I'm most inspired by art forms other than my own. Recent projects:
-			<!--	<br>
-				These are some of my recent projects: -->
-			</div> <br>
-
-			<div class="large-4 columns" onclick="window.location.href='https://www.youtube.com/watch?v=6rM4DruuDco&t=11h34m18s'" target="blank">
-				<div class="frontpagethumb">
-					<img src="images/hd/fpt-map.jpg"><br>
-					<b>The Last Cloud</b><br>
-					Live Net Art Performance
+				<div class="homepage-text">
+				  I work in the field of experimental and electronic music. I use Javascript as my primary instrument to create web-based music projects and algorithmic music. I live in Western Massachusetts.
 				</div>
-			</div>
 
-			<div class="large-4 columns">
-				<div class="frontpagethumb" onclick="window.location.href='http://nexusosc.com'" target="blank">
-					<img src="images/hd/fpt-nexus-ipad.png"><br>
-					<b>NexusUI</b><br>
-					HTML5 Audio Interfaces
+				<hr />
+
+				<div class="homepage-text">
+					Read about my creative practice:
+					<br />
+
+					<a href="netart.html">
+							The Browser as an Instrument<span class="arrow">&#8614;</span>
+					</a>
+
+					<br />
+					<a href="algorithmic.html">
+							Algorithmic Music<span class="arrow">&#8614;</span>
+					</a>
+
+					<br />
+					<a href="instrument-building.html">
+							Instrument Building<span class="arrow">&#8614;</span>
+					</a>
+
 				</div>
-			</div>
 
-			<div class="large-4 columns" onclick="window.location.href='https://www.youtube.com/watch?v=be52hTJ5uzM'" target="blank">
-				<div class="frontpagethumb">
-					<img src="images/hd/fpt-clara.png"><br>
-					<b>Clara</b><br>
-					Live Coding Piano Algorithms
+				<hr />
+
+
+				<div class="homepage-text">
+					<a href="bio.html">
+						About me<span class="arrow">&#8614;</span>
+					</a><br />
+					<a href="teaching.html">
+						Teaching<span class="arrow">&#8614;</span>
+					</a><br />
+					<a href="pubs.html">
+						Publications<span class="arrow">&#8614;</span>
+					</a><br />
 				</div>
-			</div>
 
-			<div class="large-2 columns">
-			</div>
+				<hr />
 
-			<div class="large-4 columns" onclick="window.location.href='https://github.com/abbernie/tune'" target="blank">
-				<div class="frontpagethumb">
-					<img src="images/hd/fpt-pyth.jpg"><br>
-					<b>Tune.js</b><br>
-					A Microtonal Web Audio Library
+				<div class="homepage-text">
+					Some recent works:
+					<br /><br />
+					(Wondergarden)
+					<br />
+					(The Last Cloud)
 				</div>
+
 			</div>
-
-			<div class="large-4 columns" onclick="window.location.href='https://vimeo.com/125277975'" target="blank">
-				<div class="frontpagethumb">
-					<img src="images/hd/fpt-pearl.png"><br>
-					<b>Pearl River</b><br>
-					Performance through Audience Devices
-				</div>
-			</div>
-
-			<div class="large-2 columns">
-			</div>
-
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-
-
-		<div class="large-12 columns pagetitle">
-		<h3>news</h3>
-		</div>
-
-
-		<!-- october 2016 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">October, 2016</span><br>
-	    I recently returned from <a href="http://iclc.livecodenetwork.org/2016/" target="blank">ICLC</a> -- the Live Coding Conference, hosted at McMaster University in Ontario -- and I'm inspired to share an update. ICLC was full of ideas, passionate work, and a surprisingly diverse array of performances. Visual art, choreography, web browsers, and custom languages abounded.
-			I performed <a href="https://www.youtube.com/watch?v=6rM4DruuDco&t=11h34m18s" target="blank">The Last CLoud</a>, a live net art performance in which I live code multiple browser windows.
-			<br><br>
-			I've been up to a lot over the past year. I defended my dissertation, chaired the music & art tracks of the 2016 web audio conference, had a son, and have been actively designing and presenting new creative code projects.
-			<br><br>
-			This spring I collaborated with a former student, Andrew Bernstein, to develop two web audio toolkits, which we shared together at the Web Audio Conference --
-			<br><br>
-			<ul>
-				<li> <a href="https://github.com/abbernie/tune" target="blank">Tune.js</a>: A collection of 3,500 microtonal and historical tunings, ported to JavaScript. It includes a small API for using these microtonal scales in web audio apps </li>
-				<li> <a href="https://github.com/abbernie/gendy" target="blank">Gendy.js</a>: A web audio implementation of Iannis Xenakis' gendy-N algorithm. It is an oscillator whose waveform nodes meander in a "drunk" walk. Quite fun! </li>
-			</ul>
-
-			Currently teaching a Python course at Goucher, covering new media topics like image processing, twitter bots, and data visualization. I'm also writing a browser-based DAW for a new media firm, Create1, in New York.
-			<br><br>
-			<b>Upcoming projects for the winter</b>:
-			<br><br>
-			<ul>
-				<li> Researching the history of using an audience's mobile devices as a speaker array, including Jose Maceda's 1974 <i>Ugnayan</i>, Golan Levin et al's 2000s <i>Dialtones</i> series, and many more contemporary works. It is really a fascinating history taking shape before our eyes</li>
-				<li> A live coding environment for generating algorithmic piano patterns and gestures, using data-to-music API by Taka, and a stellar web audio piano Yotam Mann at Tone.js. </li>
-				<li> A fork of NexusUI, with fewer, more powerful interfaces, as well as tuning and timing APIs. This is branching out of a library I use for my own compositional practice. </li>
-			</ul>
-
-
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-
-
-
-
-		<!-- april 2014 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">April 15, 2015</span><br>
-	    Recent happenings:
-	    <br><br>
-	    In December I released <a href="http://www.nexusosc.com" target="blank">NexusUI 1.0</a>, a major update, just in time for the <a href="http://wac.ircam.fr" target="blank">1st Web Audio Conference</a>. I travelled to Paris to present at the conference with Jesse Allison. We presented an in-progress project <a href="http://braid.nexusosc.com" target="blank">BRAID</a>, which is a way to build audio instruments by drag-and-drop right in the web browser. The conference was at the legendary electronic music studio <a href="http://www.ircam.fr" target="blank">IRCAM</a>, which was incredible to see. The conference included talks about some cool new projects including (but not limited to) <a href="http://lissajousjs.com" target="blank">Lissajous</a>, <a href="https://github.com/hughrawlinson/meyda" target="blank">Meyda</a>, and <a href="http://tonejs.org" target="blank">Tone.JS</a>.
-		<br><br>
-	   	I also participated in a concert, at the Mozilla Paris office, of <b>distributed web audio performance</b>, meaning all sounds were created through the mobile devices of the audience. I performed a version of my networked piece, <a href="http://pearlriver.whitechord.org" target="blank">Pearl River</a>. Of particular note, though, was a piece <a href="http://funktion.fm/#/projects/fields-infos" target="blank">Fields</a>, by Tim Shaw and Sebastien Piquemal, which has been touring for a few years now. The piece, and the concert, felt like a new way of listening. I expect this is a performance paradigm we'll be seeing more of in the years to come.
-		<br><br>
-
-		Now, my work is transitioning to <a href="http://www.github.com/taylorbf/mcluhan-js" target="blank">a new project</a>, tentatively titled McLuhan.js, which will be <b>a JavaScript library for making browser art</b>. The hope is to offer simplified methods for doing the kind of web art that I'm so interested in.
-
-		<br><br>
-		Oh, and another new project (what am I doing to myself...) tentatively titled <a href="http://taylorbf.github.io/ToneJam/" target="blank">ToneJam</a>, which I hope to turn into a tool for <b>improvisatory distributed computer music performance</b>.<br><br>
-
-	   	Other misc notes:<br><br>
-	   	• I recently completed an independent study of sorts, on the relationship between <a href="http://visualsources.tumblr.com" target="blank">visual art and music in the 20th century</a>. If you're interested in this subject, you may enjoy my blog on the subject, linked to there. First posts are at the bottom.
-	   	<br>
-	   	<br>
-	   	• Teaching web development at Goucher this spring. More specifically, teaching how to <a href="http://taylorbf.github.io/thinkincode" target="blank">think in code</a>.
-
-		<br><br>
-	   	• Getting ready for the 2015 <a href="http://nime2015.lsu.edu" target="blank">New Interfaces for Musical Expression</a> conference, which we're hosting at LSU!
-
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-
-
-
-
-
-
-
-
-		<!-- august 2014 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">August 8, 2014</span><br>
-	    A lot to report this time! My paper about <a href="http://www.nexusosc.com">NexusUI</a> was accepted to this summer's <a href="http://www.nime2014.org/">New Interfaces for Musical Expression (NIME)</a> conference at Goldsmith's, London. <a href="http://www.allisonic.com">Jesse Allison</a> and <a href="http://www.wwconlin.com">Will Conlin</a> presented for me since I couldn't make it.
-		Read the paper <a href="/Expressive_Mobile_Development_NexusUI.pdf">here</a>.
-		Read the presentation <a href="/NexusUI_NIME14pres.pdf" download>here</a>.
-		<br><br>
-		NexusUI must have made a splash at the conference because we got a surprising amount of press in the following weeks, including on <a href="http://createdigitalmusic.com/2014/07/free-tool-will-make-mobile-browser-multi-touch-controller/">Create Digitial Music</a> via Peter Kirn, the front page of <a href="http://news.ycombinator.com">Hacker News</a>(!!), <a href="http://blog.chrislowis.co.uk/waw.html">Web Audio Weekly</a>, and even <a href="nxui_china.png" target="blank">in China</a>? The project got 10,000 hits in a week and I'm so glad that people out there are using it. Two projects are even expanding upon it via github open-source sharing -- <a href="https://github.com/triss/duplex-nexus-osc">Duplex NexusUI</a> and <a href="https://github.com/sebpiq/rhizome">Rhizome</a>, which I have been working on with <a href="http://funktion.fm/">Sebastien Piquemal</a> of the Media Lab Helsinki.
-		<br><br>
-		More recently, I just finished up another residency at <a href="http://www.goucher.edu/graduate-programs/digital-arts">Goucher College Digital Arts</a>. My amazing graduate students learned how to write creative code using the <a href="https://www.processing.org/">Processing</a> language by Ben Fry and Casey Raes, creating mobile apps and interactive installations. See the <a href="#teaching">teaching</a> section for more photos of their awesome work!
-		<br><br>
-		Lastly, in addition to the new <a href="#teaching">teaching</a> section, I'm working on updating the site with my recent <a href="#projects">projects</a> including some mobile apps and laser cut instruments, and hopefully finishing many artworks that I've been neglecting... Stay tuned!
-		<br><br>
-
-		<div style="font-size:10pt;color:#999">Andrew Bernstein and Leo Hylan, creative code, Digital Media Programming @ Goucher College, Fall 2014</div>
-			<img src="images/teaching/IMG_3276.JPG" style="width:200px;">
-			<img src="images/teaching/IMG_3239.JPG" style="width:200px;">
-			<img src="images/teaching/IMG_3233.JPG" style="width:200px;">
-
-
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-
-
-
-
-
-		<!-- march 2014 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">March 2, 2014</span><br>
-		A few new projects and videos –<br>
-		<br>
-		Pearl River for Laptop Ensemble - now playable online!<br>
-		<a href="http://pearlriver.whitechord.org">pearlriver.whitechord.org</a><br>
-		This is a piece of music I created about a year ago, in which each player controls one note and the ensemble organizes its improvisation through a chat window. It's made with Web Audio API and node.js. If you are in a laptop ensemble, please try it out with your group!<br>
-		<br>
-		Nexus UI demo video<br>
-		I recently worked with <a href="http://wwconlin.com/">Will Conlin</a> to make a demo video of some mobile phone apps that I made. These apps use the NexusUI mobile music toolkit that I have been working on for the past year or so, in collaboration with Jesse Allison and Yemin Oh. Check it out!<br>
-		<iframe src="//player.vimeo.com/video/86088030" width="100%" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/86088030">NexusUI Mobile Library</a> from <a href="http://vimeo.com/user4066034">Plum Street</a> on <a href="https://vimeo.com">Vimeo</a>.</p><br>
-		Mobile Music + Theater = ?<br>
-		Finally, I recently got to collaborate with a few actors and screenwriters... I hope to share a video of that collaboration soon. In the meantime, here is some musical browsing that has come from early conversations with them.<br> <!-- w 500, h 290 -->
-		<iframe src="//player.vimeo.com/video/87431949" width="100%" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/87431949">Desktop Cassiopeia</a> from <a href="http://vimeo.com/user4066034">Plum Street</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-
-
-
-		<!-- Nov 3 2013 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">November 3, 2013</span><br><br>
-		I'm happy to report that a short piece of computer music that I composed this summer, <i>inflected dreams</i> has been accepted for the upcoming SEAMUS electroacoustic "miniatures" CD. <a href="http://www.seamusonline.org/?page_id=2">SEAMUS</a> is the Society for Electroacoustic Music in the United States, and I'm really pleased to be able to be involved with the project. Especially excited to see what other composers came up with for this year's theme, <i>negative space</i>. Thank you to the panel of judges and please check out the CD when it is released this winter!
-		<br><br>
-		In other news, the <a href="http://emdm.music.lsu.edu/lol">Laptop Orchestra of Louisiana</a> has an upcoming concert on November 11 at the LSU Shaver Theater. We'll be playing all kinds of odd sounds and musics, many that send data through the network as a means to create compositional form. My piece <i>DaisyHead</i> - made entirely with <a href="http://www.html5rocks.com/en/tutorials/webaudio/intro/">Web Audio API</a> and <a href="http://nodejs.org">node.js</a> -  will be on the concert. More details on the concert <a href-"http://emdm.music.lsu.edu/">here</a>.
-		<br><br>
-		Lastly, a story:<br>
-		In 2011, when I visited New York to present at the wonderful <a href="http://softwareandart.com/">LISA</a> salon, I stayed on the couch of my friend, artist <a href="http://eriksanner.com/">Erik Sanner</a>, in Harlem. The next morning, he woke me up before sunrise, we went to his basement studio, and he asked me to contribute to a painting while having a conversation about art while we videotaped ourselves painting and having this conversation. Then we ate Cream of Wheat and I drove back to Boston. It was a pretty awesome experience, mostly because of how much I got to learn from Erik and his artistic process and open-mindedness. Erik brought in several other collaborators into that artwork. Now he is showing the piece at Allegheny College, with the video of those conversations being projected back onto the painting. Nice!
-		<br><br>
-		<img src="http://eriksanner.com/random/2013/allegheny_viewser/work_samples/stills/Improvisation_In_Process_2013_08_18.jpg" style="height:500px;width:auto">
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-
-
-
-
-		<!-- Aug 2 2013 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">August 2, 2013</span><br><br>
-		Working hard recently on an iPhone game, Moonball, which is a sort of space-golf with portals and obstacles and fun things. The game is made entirely with HTML5/JS and web technology, ported into app form. If anyone would like to serve as an alpha-tester of the game, or if you would like to get involved, please contact me! It will hopefully see light of day in the App Store this fall.
-		<br><br>
-		In other news, I recently created a short audio work using the same homemade software that I used to create my Dream #6 short album. I submitted the work to the SEAMUS "miniatures" competition which <a href="http://www.tedcoffey.com/">Ted Coffey</a> is putting together this year, so I suppose I can't post it now, but will soon.
-		<br><br>
-		Moonball (current state)
-		<br>
-		<img src="images/moonball_draft1.png" style="height:300px;width:auto">
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-		<!-- JULY 16 2013 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">july 16, 2013</span><br><br>
-		Excited to be able to share <a href="http://www.nexusosc.com">Nexus UI</a>, a JavaScript library of user-interface components for making music with websites and mobile phones, developed with <a href="http://www.allisonic.com">Jesse Allison</a> and <a href="http://www.yeminoh.com/Welcome.html">Yemin Oh</a>.
-
-		<br><br><a href="http://www.nexusosc.com">www.nexusosc.com</a>
-
-		<br><br>Nexus UI makes it easy to create a musical interface in a website, accessible by web browser or mobile phone. You can either connect it to the new Web Audio API, or
-		have the interface send OSC messages to your Max patch or any musical software with an OSC listener.
-		Nexus is full of fun toggles, dials, multisliders, accelerometer sensors, and bouncy balls. Check it out! Feedback is more than welcome!!<br>
-		<br><img src="images/nexusdemo.png" style="height:500px;">
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-
-
-
-
-
-		<!-- JUNE 1 2013 -->
-		<div class="row">
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div class="large-8 columns newsbox">
-		<span class="newsdate">June 1, 2013</span><br><br>
-		Just returned from a wonderful trip to <a href="http://nime2013.org">NIME 2013</a> in Daejong and Seoul, South Korea, and felt like
-		revamping my website. Also taking the advice of <a href="https://twitter.com/softwareandart">Isabel Draves</a> to present my bio / persona with a little
-		more clarity. (Haven't had an actual bio on my site for some time now.) I have tended to use this whitechord.org space as much to experiment with web design ideas as I have to show my own work.
-		Now, I feel like I'm at a point where I don't need to explore so much anymore, and I can have a stable design that lets me post updates, new works, etc.
-		<br><br>
-		NIME was great, I shared Plum Street, an online performance using <a href="http://nodejs.org">node.js</a> and websocketing, with artistic contributions by <a href="http://nathanielparsons.com/">Nathaniel Parsons</a>. That work is sort of endlessly in progress for the time being, but I will post some documentation soon.
-		<br><br>Upcoming projects on the calendar include a mobile app game (seen below), a data vis JS library, two laptop ensemble compositions, making large contributions to <a href="https://github.com/jesseallison/NEXUS">nexus UI</a>, and recording some summer ambient music with Philadelphia's <a href="http://www.petalshield.com/">Petal Shield</a>.
-		<br><br><img src="images/moonball1.png" style="height:400px;">
-		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
-		</div>
-
-	</div>
-
-
-
-
-
-
-	<!-- INSPIRATION -->
-
-
-	<div id="inspiration" style="display:none">
-
-		<div class="large-12 columns pagetitle" style="margin:40px 0px 10px;color:#555;">
-			<h3>inspiration</h3>
-		</div>
-
-
-		<div class="row">
-
-		  <div class="large-2 columns spacer">&nbsp;</div>
-
-		  <div class="large-8 columns">
-
-		 	 <div class="large-12 columns insptitle">
-				internet art
-			 </div>
-
-			 <div class="large-4 columns historyvid">
-			 <a href="http://jodi.org" class="historylink">jodi.org</a>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <a href="http://jodi.org" class="historylink">jodi.org</a>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <a href="http://jodi.org" class="historylink">jodi.org</a>
-			 </div>
-
-
-
-
-
-		 	 <div class="large-12 columns insptitle">
-				electroacoustic music
-			 </div>
-
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/pcHnL7aS64Y" frameborder="0" allowfullscreen></iframe>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/lBIfHVy7bDo" frameborder="0" allowfullscreen></iframe>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/_ehu8u_JTjw" frameborder="0" allowfullscreen></iframe>
-			 </div>
-
-
-
-		 	 <div class="large-12 columns insptitle">
-				instrument building
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/3ZOzUVD4oLg" frameborder="0" allowfullscreen></iframe>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/HJHmsTk303Q" frameborder="0" allowfullscreen></iframe>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/P8NIpPhXpfQ" frameborder="0" allowfullscreen></iframe>
-			 </div>
-
-
-			 <div class="large-12 columns insptitle">
-				creative code
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <a href="http://music.columbia.edu/~luke/perfect/index.shtml" class="historylink">Luke DuBois - A More Perfect Union</a>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <a href="http://music.columbia.edu/~luke/missed" class="historylink">Luke DuBois - Missed Connections</a>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/bsLUxM__MGQ" frameborder="0" allowfullscreen></iframe>
-			 </div>
-
-
-
-			 <div class="large-12 columns insptitle">
-				dance
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/V-roXj8UBIA" frameborder="0" allowfullscreen></iframe>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 </div>
-
-
-
-			 <div class="large-12 columns insptitle">
-				network music
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/CBaqvFDHCBY" frameborder="0" allowfullscreen></iframe>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 </div>
-
-			 <div class="large-12 columns insptitle">
-				sound art
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 <iframe width="240" height="180" src="http://www.youtube.com/embed/IIFH4XHU228" frameborder="0" allowfullscreen></iframe>
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 </div>
-			 <div class="large-4 columns historyvid">
-			 </div>
-
-		  </div>
-
-		  <div class="large-2 columns spacer">&nbsp;</div>
-
+			<div class="large-2 columns spacer">&nbsp;</div>
 		</div>
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -967,253 +108,37 @@ When not making art with the web, Ben is a developer and CTO at bitdreams.us, an
   <script src="foundation/js/foundation.min.js"></script>
   <script>
 
-    	$(document).foundation();
+  	$(document).foundation();
 
-    	var nextHash = "";
+		var md = window.markdownit();
 
+		// get markdown content
+        var mdFile = 'index.md';
 
-		/* onload and page handling */
+        function getText(url){
+            var result = null;
+            $.ajax( { url: url,
+                      type: 'get',
+                      dataType: 'html',
+                      success: function(data) {
+												var mdHTML = md.render(data);
+												$("#content").html(mdHTML)
+											}
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
 
-		var menulum = 90;
+			//getText(mdFile);
 
-		$(document).ready(function() {
 
-			if(window.location.hash) {
-				hash_value = window.location.hash.replace('#', '');
-				hash_value = hash_value.replace('_', '');
-				changePage(hash_value);
-			} else {
-				nextHash = "news_"
-				window.location.hash = "#news_";
-				showNews();
-			}
 
-			$(".bmenu").each(function() {
-				menulum -= 3
-				$(this).css("background-color","hsla(193, 80%, "+menulum+"%, 1)")
-				//$(this).animate({"background-color":"hsla(193, 80%, "+menulum+"%, 1)"},Math.floor(Math.random()*5000))
-			})
 
-			$(".newsdate").append(" ~").prepend("~ ")
 
-    	});
 
-  		function changePage(page) {
-  			switch (page) {
-  				case "projects":
-  					showLongList(Projects, page);
-  					break;
-  				case "sketches":
-  					showShortList(Sketches, page);
-  					break;
-  				case "history":
-  					showHistory();
-  					break;
-  				case "me":
-  					showBio();
-  					break;
-  				case "news":
-  					showNews();
-  					break;
-  				case "teaching":
-  					showTeaching();
-  					break;
-  				case "pubs":
-  					showPubs();
-  					break;
-  				default:
-					nextHash = "projects_"
-					window.location.hash = "#projects_";
-					showLongList(Projects, "projects");
-
-
-  			}
-
-
-			nextHash = page + "_";
-			window.location.hash = page + "_";
-			window.scrollTo(0,0)
-
-
-  		};
-
-
-
-
-		window.addEventListener("hashchange", checkHash, false);
-
-		function checkHash() {
-			var hash_value = window.location.hash.replace('#', '');
-			if (hash_value!= nextHash) {
-				hash_value = hash_value.replace('_', '');
-				changePage(hash_value);
-			}
-		}
-
-
-  		function showHistory() {
-
-			var htmlstr = document.getElementById("inspiration").innerHTML;
-
-			$("#content_row").html(htmlstr);
-
-  		}
-
-  		function showTeaching() {
-
-			var htmlstr = document.getElementById("teachingexp").innerHTML;
-
-			$("#content_row").html(htmlstr);
-
-  		}
-  		function showPubs() {
-
-			var htmlstr = document.getElementById("pubs").innerHTML;
-
-			$("#content_row").html(htmlstr);
-
-  		}
-
-
-  		function showNews() {
-
-			var htmlstr = document.getElementById("myblog").innerHTML;
-
-			$("#content_row").html(htmlstr);
-
-  		}
-
-
-  		function showBio() {
-
-  			var htmlstr = document.getElementById("bio").innerHTML;
-
-			$("#content_row").html(htmlstr);
-
-  		}
-
-  		function openProject(index) {
-  			if (Projects[index].urltype=="soundcloud") {
-  				var newWin = window.open('','','width=620,height=350');
-  				newWin.document.body.innerHTML = Projects[index].url;
-  			} else {
-  				var newWin = window.open(Projects[index].url,'','width=900,height=600');
-  			}
-  		}
-
-  		function openSketch(index) {
-  			if (Sketches[index].urltype=="soundcloud") {
-  				var newWin = window.open('','','width=620,height=350');
-  				newWin.document.body.innerHTML = Sketches[index].url;
-  			} else {
-  				var newWin = window.open(Sketches[index].url,'','width=900,height=600');
-  			}
-  		}
-
-
-  		function showLongList(list,title) {
-
-			var htmlstr = '<div class="large-12 columns pagetitle" style="margin:40px 0px 10px;color:#555;">'
-						+ '<h3>'+title+'</h3>'
-						+ '</div>'
-						+ '<div class="large-2 columns spacer"></div>'
-						+ '<div class="large-8 columns">';
-
-			for (i=0;i<list.length;i=i+1) {
-				thisWork = list[i];
-
-
-
-				//onclick="openProject('+i+')">'
-				var time = (2014-thisWork.year) * 600;
-				time += (thisWork.month*50);
-
-
-				htmlstr += '<div style="margin:0px 0px 40px" class="newsbox largework">'
-						+ '<img src="'+thisWork.thumb+'" style="width:80%;padding:20px 0px;margin-left:10%">'
-						+ '<div style="padding:10px;font-weight:100;text-align:center;font-size:18pt">'+thisWork.name+'</div>'
-						+ '<div style="padding:10px;">'+thisWork.comment+'</div>'
-						+ '<a style="padding:10px;" onclick="openProject('+i+')">Go to project</a>'
-						+ '<div style="padding:10px 50px;color:#aaa;text-align:right">' +thisWork.year +'</div>'
-						+ '</div>';
-
-
-			}
-
-			htmlstr += '</div>'
-					+ '<div class="large-2 columns spacer"></div>';
-
-			$("#content_row").html(htmlstr);
-		}
-
-
-		function showShortList(list,title) {
-
-			var htmlstr = '<div class="large-12 columns pagetitle" style="margin:40px 0px 10px;color:#555;">'
-						+ '<h3>'+title+'</h3>'
-						+ '</div>'
-						+ '<div class="large-2 columns spacer"></div>'
-						+ '<div class="large-8 columns">';
-
-			for (i=0;i<list.length;i++) {
-				thisWork = list[i];
-
-				htmlstr += '<div class="large-12 columns highlight" onclick="openSketch('+i+')">'
-						+ '<div class="proj_thumb">'
-						+ '<img src="'+thisWork.thumb+'" class="proj_thumbimg">'
-						+ '</div>'
-						+ '<div class="proj_desc">'
-						+ '<h5 class="proj_subtit">'+thisWork.name+'</h5><br>'
-						+ '<h6 class="proj_com">'+thisWork.comment+'</h6>'
-						+ '</div>'
-						+ '</div>';
-
-
-
-			}
-
-
-			htmlstr += '</div>'
-					+ '<div class="large-2 columns spacer"></div>';
-
-			$("#content_row").html(htmlstr);
-		}
-
-
-
-
-		function dream(scale) {
-			var randNum = Math.floor(Math.random()*scale);
-			return randNum;
-		}
-
-
-
-
-
-
-
-		function openWhiteQ() {
-
-			var htmlstr = '<div id="whiteq" onclick="closeWhiteQ()" style="opacity:0.9;width:100%;height:100%;background-color:#DDD;position:absolute;top:0px;left:0px;color:#444;font-size:15pt;font-weight:bold;padding:100px;line-height:30px">'
-						+ 'From time to time, I get asked about the origin of the name <i>whitechord</i>. For a long time, I\'ve been interested in synaesthesia and the idea of translating sound into vision and vision into sound. I was told as a kid that the color of all-colors-at-once was white, not black as I expected. I later discovered that this translates to sound as well, as all sounds acting at once will cancel each other out (through a sort of total subtractive synthesis). The <i>white chord</i>, then, is not a great noise, but a great silence!'
-						+ '</div>';
-
-
-			$("body").append(htmlstr);
-			$("body").css("overflow", "hidden");
-
-		}
-
-		function closeWhiteQ() {
-
-			$("#whiteq").remove();
-			$("body").css("overflow", "auto");
-
-		}
-
-// GOOGLE ANALYTICS
- var _gaq = _gaq || [];
+	// GOOGLE ANALYTICS
+ 	var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-17840817-1']);
   _gaq.push(['_trackPageview']);
 

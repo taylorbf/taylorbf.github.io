@@ -100,7 +100,7 @@ h6 {
 }
 
 .newsbox {
-	border-bottom:solid 1px #ccc;
+	border-bottom:solid 0px #ccc;
 	font-size:12pt;
 	color:#333;
 	margin:0 auto 30px;
@@ -108,7 +108,6 @@ h6 {
 	line-height:1.5em;
 	font-family:inherit;
 }
-
 
 .newsdate {
 	display:block;
@@ -167,6 +166,11 @@ h6 {
 	font-weight:bold;
 }
 
+.practice-link {
+	margin-top:10px;
+}
+
+
 .sidemenu .arrow {
 	font-size:17pt;
 	line-height:1.2em;
@@ -219,8 +223,9 @@ h6 {
 	border:solid 0px #eee;
 	padding:10px 0px;
 	text-align:center;
-	line-height:1.4em;
-	font-size:11pt;
+	line-height:2em;
+	font-size:12pt;
+	color:black;
 }
 .frontpagethumb:hover {
 	cursor:pointer;
@@ -228,6 +233,52 @@ h6 {
 }
 
 .frontpagethumb img {
-	width:80%;
+	width:90%;
 	padding:0px 0px 7px;
+}
+
+
+/* articles */
+
+#article h1 {
+	font-size:27pt;
+	padding:30px 0px;
+}
+#article h2 {
+	font-size:24pt;
+	padding:8px 0px;
+}
+#article h3 {
+	font-size:21pt;
+	padding:7px 0px;
+}
+#article h4 {
+	font-size:18pt;
+	padding:6px 0px;
+}
+#article h5 {
+	font-size:15pt;
+	padding:6px 0px;
+}
+#article p {
+	font-size:14pt;
+	font-weight:300;
+	letter-spacing:0em;
+}
+
+.homepage-text {
+	font-weight:300;
+	font-size:14pt;
+	color:#333;
+	line-height:1.4em;
+	letter-spacing:2px;
+}
+
+
+.arrow {
+	font-size:20pt;
+	position:relative;
+	top:1px;
+	margin-left:3px;
+	color:#18a;
 }
