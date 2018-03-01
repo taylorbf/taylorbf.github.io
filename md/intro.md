@@ -1,7 +1,8 @@
 
-I work in the field of [experimental](https://en.wikipedia.org/wiki/Experimental_music) and [electronic music](https://en.wikipedia.org/wiki/Computer_music). Since 2003, I have created music projects in a variety of modes including internet-based, site-specific, networked, and algorithmic. I currently live in Easthampton, Massachusetts.
+I work in the field of [experimental](https://en.wikipedia.org/wiki/Experimental_music) and [electronic music](https://en.wikipedia.org/wiki/Computer_music). Since 2003, I have created music projects in a variety of modes including [internet-based](), [site-specific](), [networked](), and [algorithmic](). I live in Easthampton, Massachusetts.
 
-From 2007-2017, I researched the use of the internet as a platform for making music. These investigations included: the internet as a site for sound installation; the web browser as a performance instrument; and compositions using networks. I began by making a series of interactive installations on the internet in 2008-2009. [The Last Cloud]() ...  ,    
+From 2007-2017, I researched the use of the internet as a musical instrument. These investigations included: the internet as a site for sound installation; the web browser as a performance instrument; and compositions using networks. I began by making a series of sound installations on the web while living in Missoula, Montana in 2008. Later that year I began to perform live by opening up dozens of browser tabs to create sound collages.
+The Opal Church. [The Last Cloud]() ...  ,    
 
 This work evolved into participation in the lively web audio community, including the development of [NexusUI](), a JavaScript library of HTML5 interface components for web audio projects, as well as contributing to other open-source projects such as [Tune.js]() and [Gendy.js](). In 2016, I helped to organize the [2nd Web Audio Conference]() as music & arts co-chair.
 

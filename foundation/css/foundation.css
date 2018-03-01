@@ -15,8 +15,6 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Hind", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-weight: normal;
-  
   font-style: normal;
   line-height: 1;
  /* position: relative; */
@@ -1236,7 +1234,7 @@ blockquote p {
     font-size: 1.6875em; }
 
   h4 {
-    font-size: 1.4375em; } 
+    font-size: 1.4375em; }
 }
 /*
  * Print styles.
