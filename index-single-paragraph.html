@@ -6,7 +6,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Hind:400,300,600' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="foundation/css/foundation.css" />
+	<link rel="stylesheet" href="foundation/css/foundation.css" />
   <script src="foundation/js/vendor/custom.modernizr.js"></script>
 	<link rel="stylesheet" href="css/style.css" />
   <script src="js/markdown-it.js"></script>
@@ -19,12 +19,11 @@
 
 	<!-- DESKTOP ONLY HEADERS & NAV -->
 
-	<a class="topleft desktoponly" href='index.html' style="cursor:pointer">
+	<a href="index.html" class="topleft desktoponly">
 
-	b.t.
+		b.t.
 
 	</a>
-
 
 	<div class="topright desktoponly">
 
@@ -34,24 +33,42 @@
 	</div>
 
 
+
+
+
 	<!-- CONTENT WILL GO HERE -->
 
+	<div id="homepage-frame">
 
-	<div class="row" style="margin-top:50px">
+		<div class="homepage-text" style="font-size:15pt;margin-bottom:20px">Hi, I'm Ben.</div>
 
-		<div class="large-2 columns spacer">&nbsp;</div>
-		<div id="content" class="large-8 columns article">
+		<div id="content" class="homepage-text">
 
-				<!-- markdown content will go in here -->
+			<!-- markdown content will go in here -->
 
 		</div>
-		<div class="large-2 columns spacer">&nbsp;</div>
+
+		<hr />
+
+		<div class="homepage-text">
+			<a href="teaching.html" style="margin-top:5px">
+				Teaching
+			</a><br />
+			<a href="pubs.html" style="margin-top:5px">
+				Publications
+			</a><br />
+			<a href="bio.html" style="margin-top:5px">
+				Bio
+			</a><br />
+		</div>
 
 	</div>
 
+
+
 	<script>
 
-		getText('md/bio.md');
+		getText('md/intro.md');
 
 	</script>
 
