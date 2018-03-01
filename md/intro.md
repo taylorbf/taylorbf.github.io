@@ -1,12 +1,15 @@
 
 I work in the field of [experimental](https://en.wikipedia.org/wiki/Experimental_music) and [electronic music](https://en.wikipedia.org/wiki/Computer_music). Since 2003, I have created music projects in a variety of modes including internet-based, site-specific, networked, and algorithmic. I currently live in Easthampton, Massachusetts.
 
-From 2007-2017, I researched the use of the internet as an instrument for making music. These investigations included the internet as a site for sound installation; the web browser as a performance instrument; and compositions using networks. I began by making some installations .... [The Last Cloud]() ...  This work evolved into participation in the Web Audio community, including the development of [NexusUI]() and helping to organize the [2nd Web Audio Conference]() as music & arts co-chair. Other projects include Tune.js, Gendy.js. 
+From 2007-2017, I researched the use of the internet as a platform for making music. These investigations included: the internet as a site for sound installation; the web browser as a performance instrument; and compositions using networks. I began by making a series of interactive installations on the internet in 2008-2009. [The Last Cloud]() ...  ,    
 
-Audience participation
-   - [IRCAM perf]()
-   - [NIME workshop]()
-   - Wondergarden grant
+This work evolved into participation in the lively web audio community, including the development of [NexusUI](), a JavaScript library of HTML5 interface components for web audio projects, as well as contributing to other open-source projects such as [Tune.js]() and [Gendy.js](). In 2016, I helped to organize the [2nd Web Audio Conference]() as music & arts co-chair.
+
+Through this research, I became involved with the performance practice of distributing music to the audience's mobile devices, using their devices as a speaker array.  
+[IRCAM perf]()
+[NIME workshop]()
+Wondergarden at [Mill 180 Park](), via the [Easthampton City Arts]().
+In 2017, I compiled an archive of historical work in this genre and published the research at NIME in a paper titled [A History of the Audience as a Speaker Array]().
 
 Began making site-specific performances...   Sunrise, Racquetball....
 Attendance at [Mills College](). In addition to working with the internet and networks, ... new musical Instruments
@@ -18,7 +21,7 @@ Currently, I am working on ....
    - composing in just intonation, spectral work,
    - algorithmic music.
 
-In addition to my creative work, I worked as a designer & developer for several companies and startups including [ReDigi](), a now-defunct – and somewhat infamous – startup selling used digital music. You can read about their [many court cases](). From 2011-2017 I taught at [Goucher College Digital Arts]() as an adjunct professor, teaching graduate coursese in creative code, new media art, and web development.
+In addition to my creative work, I have in recent years worked as a designer & developer for several companies and startups including [ReDigi](), a now-defunct (and somewhat controversial) startup selling used digital music. From 2011-2017 I taught at [Goucher College Digital Arts]() as an adjunct professor, teaching graduate courses in creative code, new media art, and web development.
 
 
 

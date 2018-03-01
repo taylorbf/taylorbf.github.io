@@ -3,6 +3,10 @@
 
 #### Book Chapters
 
+[Interactive Music on the Web]()<br>
+Foundations in Sound Design (forthcoming, 2018)<br>
+S. W. Lee, B. Taylor, G. Essl
+
 #### Journals
 
 [Educational Design of Live Coding Environments for the Browser]()<br>
