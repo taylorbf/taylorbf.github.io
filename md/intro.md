@@ -1,48 +1,14 @@
+# HI, I'm Ben.
 
-I work in the field of [experimental](https://en.wikipedia.org/wiki/Experimental_music) and [electronic music](https://en.wikipedia.org/wiki/Computer_music). Since 2003, I have created music projects in a variety of modes including [internet-based](), [site-specific](), [networked](), and [algorithmic](). I live in Easthampton, Massachusetts.
+I work in the field of [experimental](https://en.wikipedia.org/wiki/Experimental_music) and [electronic music](https://en.wikipedia.org/wiki/Computer_music). Since 2003, I have created music projects in a variety of modes including [internet-based](https://en.wikipedia.org/wiki/Internet_art), [site-specific](https://en.wikipedia.org/wiki/Site-specific_art), networked, and [algorithmic](https://en.wikipedia.org/wiki/Algorithmic_composition). I live in Easthampton, Massachusetts.
 
-From 2007-2017, I researched the use of the internet as a musical instrument. These investigations included: the internet as a site for sound installation; the web browser as a performance instrument; and compositions using networks. I began by making a series of sound installations on the web while living in Missoula, Montana in 2008. Later that year I began to perform live by opening up dozens of browser tabs to create sound collages.
-The Opal Church. [The Last Cloud]() ...  ,    
+From 2007-2017, I researched the use of the internet as a musical instrument. These investigations included the internet as a site for sound installation, the web browser as a performance instrument, and composing using networks. I began by making a series of sound installations on the web while living in Missoula, Montana in 2008. Later that year I began to perform live by opening up dozens of browser tabs to create sound collages.
+From 2010 onward, I designed new tools for controlling multi-window media collages in live performance.
 
-This work evolved into participation in the lively web audio community, including the development of [NexusUI](), a JavaScript library of HTML5 interface components for web audio projects, as well as contributing to other open-source projects such as [Tune.js]() and [Gendy.js](). In 2016, I helped to organize the [2nd Web Audio Conference]() as music & arts co-chair.
+This work evolved into participation in the lively web audio community. I lead the development of [NexusUI](https://nexus-js.github.io/ui/), an open-source JavaScript library of HTML5 interface components for web audio projects, and co-authored other open-source toolkits such as [Tune.js](https://github.com/abbernie/tune) and [Gendy.js](https://github.com/abbernie/gendy). In 2016, I helped to organize the [2nd Web Audio Conference](http://webaudio.gatech.edu/) as music & arts co-chair, and more recently I co-wrote a chapter on web audio for the series Foundations of Sound Design.
 
-Through this research, I became involved with the performance practice of distributing music to the audience's mobile devices, using their devices as a speaker array.  
-[IRCAM perf]()
-[NIME workshop]()
-Wondergarden at [Mill 180 Park](), via the [Easthampton City Arts]().
-In 2017, I compiled an archive of historical work in this genre and published the research at NIME in a paper titled [A History of the Audience as a Speaker Array]().
+From 2015-2017, I researched the use of audience mobile devices as a speaker array. My work in this genre included: a [performance](https://vimeo.com/125277975) at Mozilla as part of the first Web Audio Conference; leading a [workshop](https://github.com/taylorbf/distributed-music-workshop) at NIME on designing your own distributed performance; and receiving a grant from [Easthampton City Arts](http://www.easthamptoncityarts.com/) to organize a concert at [Mill 180 Park](https://www.mill180park.com/). My research in this field culminated in compiling an archive of historical work in the genre, published at NIME as [A History of the Audience as a Speaker Array](articles/a-history-of-the-audience-as-a-speaker-array.pdf).
 
-Began making site-specific performances...   Sunrise, Racquetball....
-Attendance at [Mills College](). In addition to working with the internet and networks, ... new musical Instruments
-   - tonebox?
-   - Understanding that an instrument frames the boundaries of what can be created. (Much like a score.)
-   - [EMMI performance]()
+Currently, my creative practice is shifting away from internet-based work and towards compositions of new music in [just intonation](https://en.wikipedia.org/wiki/Just_intonation). These new works explore computational approaches to harmony and form, using creative code and a variety of computer programming tools to organize new musical structures and tuning systems. My work with algorithmic music and live coding has also led to some interesting collaborations, such as in [this](https://vimeo.com/229745504) performance with [EMMI](http://expressivemachines.com/dev/wordpress/) in which I live coded one of their automated zythers, also performed at NIME in Copenhagen.
 
-Currently, I am working on ....
-   - composing in just intonation, spectral work,
-   - algorithmic music.
-
-In addition to my creative work, I have in recent years worked as a designer & developer for several companies and startups including [ReDigi](), a now-defunct (and somewhat controversial) startup selling used digital music. From 2011-2017 I taught at [Goucher College Digital Arts]() as an adjunct professor, teaching graduate courses in creative code, new media art, and web development.
-
-
-
-<!---I made [NexusUI](http://google.com) and compose music in [just intonation](http://google.com) -->
-
-<!-- I work in the field of experimental and electronic music. Since 2006, I have created music projects in a variety of modes including internet-based, site-specific, networked, and algorithmically-generated. I live in Western Massachusetts.
-<!--I use Javascript as my primary instrument to create web-based music projects and algorithmic music. I live in Western Massachusetts. -->
-
-
-
-<!--
-Ben Taylor is an interdisciplinary artist and creative coder who specializes in web audio and networked performance practices. His research investigates the way ideas translate between the arts, and how we can apply that history to guide the artistic use of networks. He is the primary author of [NexusUI](http://nexus-js.github.io/ui/), an open-source toolkit for controlling audio in the browser.
-
-Ben has presented his research internationally at conferences and festivals including the Pixilerations New Media Festival (Brown/RISD, 2011), New Interfaces for Musical Expression (Seoul 2013, London 2014), Web Audio Conference (IRCAM/Mozilla 2015), Leaders in Software and Art (NY 2011), Music for People and Thingamajigs (2010), International Conference on Live Coding (McMaster Univ, 2016), International Computer Music Conference (2015), and others. His music has been released by the Society for Electroacoustic Music in the United States (SEAMUS). In 2017 he received a grant from Easthampton City Arts to organize electroacoustic music performances in Western Massachusetts.
-
-He received an M.F.A. In Electronic Music &amp; Recording Media from Mills College and has studied with members of the League of Automatic Music Composers and The Hub, Brian Harnetty, and Pauline Oliveros. Prior to Mills, he received a B.A. in Music (Honors) from Kenyon College in rural Ohio. In 2016, he earned a Ph.D. in Experimental Music & Digital Media from LSU, while doing research at the LSU Center for Computation and Technology.
-
-#### Activities
-I'm an active member of several communities surrounding art & technology. In 2016 I was a music & arts chair of the Web Audio Conference at Goergia Tech. I participatee in scientific committees for the New Interfaces for Musical Expression conference and the Web Audio Conference.
-
-#### Contact
-
-taylorbf [at] gmail [dot] com -->
+In addition to my creative work, I have in recent years worked as a designer & developer for several companies and startups including [ReDigi](https://www.google.com/search?q=redigi), a now-defunct and somewhat controversial startup selling used digital music. From 2011-2017 I taught at [Goucher College Digital Arts](http://www.goucher.edu/learn/graduate-programs/mfa-in-art-and-technology/) as an adjunct professor, teaching graduate courses in creative code, internet media art, and web development.

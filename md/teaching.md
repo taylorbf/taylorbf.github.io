@@ -7,7 +7,7 @@ SP12, SP13, SP14, SP15, SP17<br>
 
 **Digital Media Programming**<br>
 Goucher College<br>
-FA14, FA15, *FA16*
+FA14, FA15, FA16
 
 **Introduction to Computer Music**<br>
 Louisiana State University<br>
@@ -34,6 +34,14 @@ Goucher College<br>
 SP15
 
 
+<br>
+
+<!--
+#### Guest Lectures
+
+Smith College, Bennington College, Penn State, RISD
+-->
+
 <!--
 ### Artworks from Media on the Internet SP15 @ Goucher Digital Arts
 				<br>
@@ -53,8 +61,9 @@ SP15
 				<br>
 	-->
 
+<br><br>
 
-#### Photos from Digital Media Programming, Fall 2014, Goucher College
+#### Photos from Digital Media Programming, Fall 2014
 
 <br>
 

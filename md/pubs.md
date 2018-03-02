@@ -3,8 +3,8 @@
 
 #### Book Chapters
 
-[Interactive Music on the Web]()<br>
-Foundations in Sound Design (forthcoming, 2018)<br>
+Interactive Music on the Web<br>
+Foundations of Sound Design (forthcoming, 2018)<br>
 S. W. Lee, B. Taylor, G. Essl
 
 #### Journals
@@ -16,23 +16,23 @@ C. Roberts, J. Allison, B. Taylor, D. Holmes, M. Wright, J. Kuchera Morin
 #### Conference Papers
 
 [A History of the Audience as a Speaker Array](articles/a-history-of-the-audience-as-a-speaker-array.pdf)<br>
-New Interfaces for Musical Expression (NIME) Conference, 2017, Copenhagen, DK<br>
-B. Taylorn
+New Interfaces for Musical Expression (NIME) Conference, 2017, Copenhagen<br>
+B. Taylor
 
 [Tune.JS: A Microtonal Web Audio Library](articles/tune-js.pdf) <br>
-2nd International Web Audio Conference, 2016, Georgia Tech, Atlanta, Georgia<br>
+2nd International Web Audio Conference, 2016, Georgia Tech<br>
 B. Taylor, A. Bernstein
 
 [Gendy.JS: A Web Audio Toolkit for Dynamic Stochastic Synthesis](articles/gendy-js.pdf)<br>
-2nd International Web Audio Conference, 2016, Georgia Tech, Atlanta, Georgia<br>
+2nd International Web Audio Conference, 2016, Georgia Tech<br>
 A. Bernstein, B. Taylor
 
 [Programming Music Camp: Using Web Audio to Teach Creative Coding](articles/programming-music-camp.pdf)<br>
-2nd International Web Audio Conference, 2016, Georgia Tech, Atlanta, Georgia<br>
+2nd International Web Audio Conference, 2016, Georgia Tech<br>
 J. Allison, Z. Berkowitz, D. Holmes, W. Conlin, N. Hwang, A. Pfalz, B. Taylor
 
 [Gesture Capture, Processing, and Asynchronous Playback within Web Audio Instruments](articles/gesture-icmc15.pdf)<br>
-International Computer Music Conference, 2015, Denton, Texas<br>
+International Computer Music Conference, 2015, University of North Texas<br>
 B. Taylor, J. Allison
 
 [BRAID: A Web Audio Instrument Builder with Embedded Code Blocks](articles/braid-wac1.pdf)<br>
@@ -48,7 +48,7 @@ New Interfaces for Musical Expression (NIME) Conference, 2014, Goldsmith's, Lond
 B. Taylor, J. Allison
 
 [NEXUS: A Platform for Distributed Performance](articles/nexus-nime13.pdf)<br>
-New Interfaces for Musical Expression (NIME) Conference, 2013, Seoul, South Korea<br>
+New Interfaces for Musical Expression (NIME) Conference, 2013, Seoul<br>
 J. Allison, B Taylor, Y. Oh
 
 <!--

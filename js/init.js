@@ -1,5 +1,3 @@
-$(document).foundation();
-
 var md = window.markdownit({
 	'html': true
 });
