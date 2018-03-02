@@ -1,4 +1,4 @@
-# HI, I'm Ben.
+# Hi, I'm Ben.
 
 I work in the field of [experimental](https://en.wikipedia.org/wiki/Experimental_music) and [electronic music](https://en.wikipedia.org/wiki/Computer_music). Since 2003, I have created music projects in a variety of modes including [internet-based](https://en.wikipedia.org/wiki/Internet_art), [site-specific](https://en.wikipedia.org/wiki/Site-specific_art), networked, and [algorithmic](https://en.wikipedia.org/wiki/Algorithmic_composition). I live in Easthampton, Massachusetts.
 
