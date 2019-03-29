@@ -56,9 +56,11 @@ J. Allison, B Taylor, Y. Oh
 Master's Thesis at Mills College, Oakland, CA</br>
 B. Taylor -->
 
+<!--
 #### Essays
 <a href="articles/grisey-jour.pdf">The Acoustic Ensemble as Spectral Synthesizer: Gerard Grisey's Jour, Contre-Jour</a><br>
 <a href="articles/johnston-suite.pdf">Ben Johnston's Pitch Choice in Suite for Microtonal Piano</a><br>
 <a href="articles/archicembalo.pdf">The Music of G.C. Waldrep's Archichembalo</a><br>
 <a href="articles/stockhausen-radio.pdf">Stockhausen and the Radio Environment as a Musical Form</a><br>
 </div>
+-->
